@@ -1,0 +1,19 @@
+---
+title: "Data Map"
+---
+
+To finish the data puzzle.
+
+<center>
+
+![](Hexwall.png){#id .class width="100%" height="100%"}
+
+</center>
+
+-   Green - Accessible; Open data
+
+-   Yellow - Accessible; Protected data (BIHR)
+
+-   Brown - Accessible; Protected data (Data partners)
+
+-   Red - Not accessible; Protected data (Data partners)

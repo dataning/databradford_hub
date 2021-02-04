@@ -1,0 +1,41 @@
+name: "holme_wood"
+title: "Holme Wood Data Repository"
+description: |
+  Holme Wood Data Repository
+output_dir: "docs"
+theme: postcards.css
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Data Science Projects"
+      href: data_science_projects.html
+    - text: "Data Map"
+      href: data_map.html
+    - text: "Open Data"
+      menu:
+        - text: "School Admission"
+          href: school_admission.html
+        - text: "Broadband Speed"
+          href: broadband_speed.html
+        - text: "Crime Incidence"
+          href: crime_report.html
+        - text: "Job Listing"
+          href: job_listing.html
+    - text: "Gated Data"
+      menu:
+        - text: "School Preference"
+          href: preference_data.html
+        - text: "Dental Health"
+          href: dental_data.html
+        - text: "Mental Health"
+          href: mental_data.html
+        - text: "Skill Training"
+          href: skill_data.html
+    - text: "Training"
+      href: training.html
+    - text: "People"
+      href: people.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article

@@ -1,0 +1,17 @@
+---
+title: "Mental Health in Holme Wood"
+description: |
+  Data Science Project
+author:
+  - name: Maike Gatzlaff
+    affiliation: LIDA, University of Leeds
+  - name: Professor Mark Mon-Williams
+    affiliation: Psychology, University of Leeds
+date: 01-19-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+Mental health issues are prevalent within the Bradford District, with a mental ill health epidemic affecting many children and young people (CYP). This project aims to improve gaps in mental health provisions available to the Bradford District and Holme Wood by: (i) mapping mental health inequalities and service accessibility and (ii) interrogating datasets (e.g. the Avon Longitudinal Study of Parents and Children and Born in Bradford) to better understand factors (e.g. alcohol and drug use) that influence mental health in CYP. Interactive maps will be used to aid in communication with policymakers, service providers, and local residents. The goal is to enable evidence-based policymaking and use data science to inform possible interventions. 
+

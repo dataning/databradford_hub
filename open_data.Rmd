@@ -1,0 +1,15 @@
+---
+title: "Open Data"
+---
+
+### [Internet Speed](https://holmewood.netlify.app/internet_speed)
+
+### [Housing price](https://holmewood.netlify.app/house_price)
+
+### [Election vote](https://holmewood.netlify.app/election_vote)
+
+### [Crime reports](https://holmewood.netlify.app/crime_report)
+
+### [School admission](https://holmewood.netlify.app/school_admission)
+
+### [Job listing](https://holmewood.netlify.app/job_listing)

@@ -1,0 +1,39 @@
+---
+title: "Bradford school admission"
+description: |
+  School admissions in Bradford between 2014 and 2020.
+author:
+  - name: Dr Ning Lu
+    affiliation: BIHR, Bradford Teaching Hospitals NHS
+date: 01-25-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r echo=FALSE}
+library(reactable)
+schools <- readRDS("schools.rds")
+green_pal <- function(x) rgb(colorRamp(c("#e8f9e9", "#2dc937"))(x), maxColorValue = 255)
+orange_pal <- function(x) rgb(colorRamp(c("#ffe4cc", "#ff9500"))(x), maxColorValue = 255)
+red_pal <- function(x) rgb(colorRamp(c("#ffe5e5", "#ff6666"))(x), maxColorValue = 255)
+
+reactable(
+  schools, searchable = TRUE, showSortable = TRUE,
+  columns = list(
+    admission = colDef(style = function(value) {
+      normalized <- (value - min(schools$admission)) / (max(schools$admission) - min(schools$admission))
+      color <- red_pal(normalized)
+      list(background = color)}), 
+    applicants = colDef(style = function(value) {
+      normalized <- (value - min(schools$applicants)) / (max(schools$applicants) - min(schools$applicants))
+      color <- orange_pal(normalized)
+      list(background = color)}), 
+    allocated = colDef(style = function(value) {
+      normalized <- (value - min(schools$allocated)) / (max(schools$allocated) - min(schools$allocated))
+      color <- green_pal(normalized)
+      list(background = color)})
+  )
+)
+```
+

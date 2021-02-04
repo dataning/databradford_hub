@@ -1,0 +1,40 @@
+---
+title: "Data science projects"
+description: |
+  2020 - 2021
+---
+
+### [Healthy Choices, Healthy Lives in Holme Wood](https://holmewood.netlify.app/healthy_place)
+
+- Led by Michelle Morris, Tom Albone
+
+Consumption of unhealthy food often leads to poor health outcomes, such as obesity and heart disease. This project aims to understand the barriers to and/or drivers of accessing affordable and healthy food in Holme Wood through: (i) mapping and spatial analysis of the local food and activity environment; (ii) identifying barriers to accessibility and using this to model the optimal location for fresh food outlets; (iii) comparison of Holme Wood with other areas; (iv) development of an interactive tool for local policy makers and community organisations; and (v) engagement with the local community to promote empowerment with intervention strategies. 
+
+### [Life Choices, Pride, and Aspirations in Holme Wood](https://holmewood.netlify.app/aspiration_choice)
+
+- Led by George Aivaliotis, Lanpeng Ji, Paul Truman 
+
+Everyone has decisions in their life, which are influenced by environment (family, friends and wider), and in particular role models and success stories. This project will model crucial life decisions taken, with a particular focus on education, childhood influences, and the transition from primary to secondary school on the Holme Wood estate. The project will provide tools for stakeholders to better understand how key decisions are made and inform related interventions for improving choices.
+
+
+### [Mental Health in Holme Wood](https://holmewood.netlify.app/mental_health)
+
+- Led by Mark Mon-Williams, Maike Gatzlaff
+
+Mental health issues are prevalent within the Bradford District, with a mental ill health epidemic affecting many children and young people (CYP). This project aims to improve gaps in mental health provisions available to the Bradford District and Holme Wood by: (i) mapping mental health inequalities and service accessibility and (ii) interrogating datasets (e.g. the Avon Longitudinal Study of Parents and Children and Born in Bradford) to better understand factors (e.g. alcohol and drug use) that influence mental health in CYP. Interactive maps will be used to aid in communication with policymakers, service providers, and local residents. The goal is to enable evidence-based policymaking and use data science to inform possible interventions. 
+
+### Exploring the Life Course of Young Children with Severe Dental Decay
+
+- Led by Ning Lu, Peter Day, Kara Gray-Burrows, Erin Giles, Intern TBD 
+
+Tooth decay is preventable. National guidance9 identifies strong evidence for the effectiveness of twice-daily toothbrushing with fluoride toothpaste and limiting sugary foods and drinks. However, NICE10 identifies a clear research gap in how to facilitate these healthy habits for children at high risk of tooth decay. For solutions to be successful and support these behaviours, they need to move away from interventions that target individual variables to a system-orientated approach, which views oral health within the “context of heterogeneous interdependent influencers which interact with each other in a complex and dynamic system”. With a focus on the Holme Wood estate in South Bradford, this project will explore the Born in Bradford dataset with the aim of describing the early lifecourse of children with severe tooth decay, (e.g. those needing dental care under general anaesthetic), and how their families engage with health and educational services. The results will help to inform the design of system-orientated interventions
+
+### The Relationship Between Adverse Childhood Experiences (ACEs) and Crime: A Pilot Study
+
+- Led by Sam Lewis, Dan Birks, Intern TBD
+
+### [A Rigorous Data Profiling Workflow for Heterogenous Data](https://holmewood.netlify.app/vis_flow)
+
+- Led by Roy Ruddle, Intern TBD
+
+The project will address that challenge by iteratively developing a data science workflow to rigorously profiling data, evaluating the workflow with researchers working on Holme Wood and other projects, and proposing guidelines to overcome information governance (IG) obstacles. The workflow will be derived from interviews that we have already conducted with 20 data scientists, and implemented in software to provide visual data summaries that are both informative and flexible. There will be two iterations of development and evaluation. The IG guidelines will provide data scientists with the information they need to specify data extracts first-time rather than in time-consuming iterations. 

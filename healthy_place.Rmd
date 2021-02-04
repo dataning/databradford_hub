@@ -1,0 +1,17 @@
+---
+title: "Healthy Choices, Healthy Lives in Holme Wood"
+description: |
+  Data Science Project
+author:
+  - name: Tom Albone
+    affiliation: LIDA, University of Leeds
+  - name: Dr Michelle Morris
+    affiliation: LIDA, University of Leeds
+date: 01-19-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+Consumption of unhealthy food often leads to poor health outcomes, such as obesity and heart disease. This project aims to understand the barriers to and/or drivers of accessing affordable and healthy food in Holme Wood through: (i) mapping and spatial analysis of the local food and activity environment; (ii) identifying barriers to accessibility and using this to model the optimal location for fresh food outlets; (iii) comparison of Holme Wood with other areas; (iv) development of an interactive tool for local policy makers and community organisations; and (v) engagement with the local community to promote empowerment with intervention strategies.
+

@@ -1,0 +1,17 @@
+---
+title: "Holme Wood Data Repository"
+description: |
+  Welcome to the website. I hope you enjoy it!
+image: "https://actearly.org.uk/wp-content/uploads/2020/01/actearly.png"
+links:
+  - label: Twitter
+    url: "https://twitter.com/CAERBradford"
+  - label: GitHub
+    url: "https://github.com/"
+site: distill::distill_website
+output:
+  postcards::jolla
+---
+
+The ActEarly: Holme Wood programme – Using Data Science to Improve the Life of Residents in Holme Wood.
+

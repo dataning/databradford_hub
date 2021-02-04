@@ -1,0 +1,19 @@
+---
+title: "Life Choices, Pride, and Aspirations in Holme Wood"
+description: |
+  Data Science Project
+author:
+  - name: Paul Truman
+    affiliation: LIDA, University of Leeds
+  - name: Dr Lanpeng Ji
+    affiliation: Maths, University of Leeds
+  - name: Dr Georgios Aivaliotis
+    affiliation: Maths, University of Leeds
+date: 01-19-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+Everyone has decisions in their life, which are influenced by environment (family, friends and wider), and in particular role models and success stories. This project will model crucial life decisions taken, with a particular focus on education, childhood influences, and the transition from primary to secondary school on the Holme Wood estate. The project will provide tools for stakeholders to better understand how key decisions are made and inform related interventions for improving choices.
+

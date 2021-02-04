@@ -1,0 +1,18 @@
+---
+title: "Mental Health in Holme Wood"
+description: |
+  Data Science Project
+author:
+  - name: Data Science Intern
+    affiliation: LIDA, University of Leeds
+  - name: Professor Roy Ruddle
+    affiliation: Computing, University of Leeds
+date: 01-19-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+We will address that challenge by iteratively developing a data science workflow to rigorously profiling data, evaluating the workflow with researchers working on Holme Wood and other projects, and proposing guidelines to overcome information governance (IG) obstacles. The workflow will be derived from interviews that we have already conducted with 20 data scientists, and implemented in software to provide visual data summaries that are both informative and flexible. There will be two iterations of development and evaluation. The IG guidelines will provide data scientists with the information they need to specify data extracts first-time rather than in time-consuming iterations.
+
+The project’s main benefits are a workflow that: (1) provide data scientists with clarity about additional data that is needed before time is expended on analysis, (2) allow data quality to be properly assessed (e.g., showing any spatio-temporal gaps in datasets so the necessary data can be obtained before time is expended on analysis, allowing a comprehensive assessment of data quality so remedial steps may be taken early on, and helping fine-grained incompatibilities between datasets to be identified), and (3) improve the robustness of the analysis. This will directly benefit Holme Wood projects during the evaluation, as well as subsequent projects that adopt our workflow and the associated software we develop.
