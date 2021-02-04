@@ -1,7 +1,7 @@
 ---
 title: "databradford"
 description: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img src="https://img.shields.io/badge/licence-GPL--3-blue.svg" alt="Licence"></a><a href="https://saythanks.io/to/datalulu%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg" alt="SayThanks"></a> 
-  <br> A R package to explore open datasets for Bradford. <img src="man/figures/logo.png" align="right" />
+  <br> A R package to quickly explore open datasets for Bradford. <img src="man/figures/logo.png" align="right" />
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -34,7 +34,7 @@ kable(df)
 `*` Due to the size of the raw data, the package can only contain a subset of the data in this category. If you wish to use the full scale of the raw data, please contact the package developer for further data request.
   
 
-## Use the package
+## Use the R package
 
 You can install the development version of databradford in R from [GitHub](https://github.com/) with:
 
@@ -43,7 +43,7 @@ You can install the development version of databradford in R from [GitHub](https
 devtools::install_github("dataning/databradford")
 ```
 
-## Use the dataset
+## Use the datasets
 
 ```{r }
 library(databradford)
