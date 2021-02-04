@@ -1,13 +1,9 @@
 ---
-title: "Data Team"
+title: "People"
 description: |
   The people who are working hard to make data accessible for Holme Wood
 ---
 
-- PI: Mark Mon-Williams
+- Ning Lu
 
-- Project Manager: Mallory Morehead
-
-- Holme Wood Community Engagement: Lauren Batty
-
-- Senior Research Fellow (repo maintainer + data guy): Ning Lu
+- Mallory Morehead
