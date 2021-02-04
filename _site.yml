@@ -21,9 +21,7 @@ navbar:
         - text: "Job Listing"
           href: job_listing.html
     - text: "Data Package"
-      menu: 
-        - text: "R Package"
-          href: r_package.html
+      href: data_package.html
     - text: "Current Research"
       href: data_science_projects.html
     - text: "Research Repo"
