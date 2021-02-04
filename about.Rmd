@@ -6,12 +6,6 @@ description: |
 
 Data Bradford brings data scientists, data engineers, data practitioners, data voluteers, academics, and service providers together to explore how public service can be transformed by data science. The programme consists of:
 
--   Analysis and modelling of routine and newly generated/linked data relevant to priority issues within the community to identify where there are patterns, relationships, and predictive indicators for issues
-
--   Gathering input from the community to gain a richer understanding of identified issues and the local context
-
--   Creation of interactive, publicly accessible data visualisations, which policymakers, community members, and service providers can utilise to test different predictions and develop new ideas to resolve identified issues, thereby informing decision-making on policies and interventions
-
 -   This project is contributed by:
 
 (pending)

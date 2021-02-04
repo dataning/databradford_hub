@@ -1,7 +1,7 @@
-name: "holme_wood"
-title: "Holme Wood Data Repository"
+name: "Data Bradford"
+title: "Bradford Open Data Repository"
 description: |
-  Holme Wood Data Repository
+  Bradford Open Data Repository
 output_dir: "docs"
 theme: postcards.css
 navbar:
