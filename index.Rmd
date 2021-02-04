@@ -1,5 +1,5 @@
 ---
-title: "Bradford Open Data Repository"
+title: "Data Bradford"
 description: |
   Welcome to the website. I hope you enjoy it!
 image: "https://actearly.org.uk/wp-content/uploads/2020/01/actearly.png"
@@ -13,5 +13,5 @@ output:
   postcards::jolla
 ---
 
-Data Bradford – Using Data Science to Improve the Offering of Public Service in Bradford.
+Data Bradford – Using Better Data to Transform Public Service in Bradford.
 

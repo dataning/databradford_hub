@@ -1,18 +1,16 @@
 name: "Data Bradford"
-title: "Bradford Open Data Repository"
+title: "Bradford Data Science Repository"
 description: |
-  Bradford Open Data Repository
+  Bradford Data Science Repository
 output_dir: "docs"
 theme: postcards.css
 navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Data Science Projects"
-      href: data_science_projects.html
     - text: "Data Map"
       href: data_map.html
-    - text: "Open Data"
+    - text: "Dashboards"
       menu:
         - text: "School Admission"
           href: school_admission.html
@@ -22,7 +20,11 @@ navbar:
           href: crime_report.html
         - text: "Job Listing"
           href: job_listing.html
-    - text: "Gated Data"
+    - text: "Data Package"
+      href: data_package.html
+    - text: "Current Research"
+      href: data_science_projects.html
+    - text: "Research Repo"
       menu:
         - text: "School Preference"
           href: preference_data.html
@@ -32,8 +34,6 @@ navbar:
           href: mental_data.html
         - text: "Skill Training"
           href: skill_data.html
-    - text: "Training"
-      href: training.html
     - text: "People"
       href: people.html
     - text: "About"
