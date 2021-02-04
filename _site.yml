@@ -21,17 +21,19 @@ navbar:
         - text: "Job Listing"
           href: job_listing.html
     - text: "Data Package"
-      href: data_package.html
+      menu: 
+        - text: "R Package"
+          href: r_package.html
     - text: "Current Research"
       href: data_science_projects.html
     - text: "Research Repo"
       menu:
         - text: "School Preference"
           href: preference_data.html
+        - text: "Mental Health"
+          href: mental_health.html
         - text: "Dental Health"
           href: dental_data.html
-        - text: "Mental Health"
-          href: mental_data.html
         - text: "Skill Training"
           href: skill_data.html
     - text: "People"

@@ -1,7 +1,7 @@
 ---
 title: "Data Bradford"
 description: |
-  2021 - Now
+
 ---
 
 Data Bradford brings data scientists, data engineers, data practitioners, data volunteers, academics, and service providers together to explore how public service can be transformed by data science. 

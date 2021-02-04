@@ -6,7 +6,7 @@ author:
   - name: Maike Gatzlaff
     affiliation: LIDA, University of Leeds
   - name: Professor Mark Mon-Williams
-    affiliation: Psychology, University of Leeds
+    affiliation: Cognitive Psychology, University of Leeds
 date: 01-19-2021
 output:
   distill::distill_article:

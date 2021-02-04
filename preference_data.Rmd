@@ -6,9 +6,13 @@ author:
   - name: Holly Clake
     affiliation: LIDA, University of Leeds
   - name: Dr Ning Lu
-    affiliation: BIHR, Bradford Teaching Hospitals NHS
+    affiliation: Data Science, Bradford Teaching Hospitals NHS
+  - name: Professor Alison Heppenstall
+    affiliation: Geocomputation, University of Leeds
+  - name: Professor Nick Malleson
+    affiliation: Spatial Science, University of Leeds
   - name: Professor Mark Mon-Williams
-    affiliation: Psychology, University of Leeds
+    affiliation: Cognitive Psychology, University of Leeds
 date: 05-06-2020
 output:
   distill::distill_article:

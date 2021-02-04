@@ -1,0 +1,84 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# databradford <img src="man/figures/logo.png" align="right" />
+
+<!-- badges: start -->
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">
+<a href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img src="https://img.shields.io/badge/licence-GPL--3-blue.svg" alt="Licence"></a>
+</td>
+<td align="left">
+<a href="https://codecov.io/gh/dataning/databradford">
+  <img src="https://codecov.io/gh/dataning/databradford/branch/master/graph/badge.svg?token=W1J9I2X338"/>
+</a>
+</td>
+</tr>
+<tr class="odd">
+<td align="left">
+<a href="https://saythanks.io/to/datalulu%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg" alt="SayThanks"></a>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+
+<!-- badges: end -->
+
+The goal of databradford is to provide a quick way to explore open datasets for Bradford city.
+
+## Roadmap
+
+```{r echo=FALSE}
+library(knitr)
+df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed", 
+                                "Property transaction",
+                                "Crime incidents*", "Local business*", "Air quality"),
+                 "Starting" = c("2014", "2018", "1995", "2011", "2010", "2015"), 
+                 "Ending" = c("2020", "2020", "2020", "2020", "2020", "2020"),
+                 "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No"),
+                 "Raw_data_contained" = c("100%", "100%", "100%", "6.9%", "20%", "100%"), 
+                 "Released" = c("No", "Yes", "No", "Yes", "No", "No")
+)
+kable(df)
+```
+
+`*` Due to the size of the raw data, the package can only contain a subset of the data in this category. If you wish to use the full scale of the raw data, please contact the package developer for further data request.
+  
+
+## Use the package
+
+You can install the development version of databradford in R from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("dataning/databradford")
+```
+
+## Use the dataset
+
+```{r }
+library(databradford)
+
+# Broadband speed
+data("broadband")
+
+# Crime incident
+data("crime")
+```
+
