@@ -1,5 +1,5 @@
 ---
-title: "Bradford Data Repository"
+title: "Bradford Open Data Repository"
 description: |
   Welcome to the website. I hope you enjoy it!
 image: "https://actearly.org.uk/wp-content/uploads/2020/01/actearly.png"
