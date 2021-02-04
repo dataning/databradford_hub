@@ -2,8 +2,6 @@
 title: "Data Map"
 ---
 
-To finish the data puzzle.
-
 <center>
 
 ![](Hexwall.png){#id .class width="100%" height="100%"}

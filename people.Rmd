@@ -4,6 +4,8 @@ description: |
   The people who are working hard to make data accessible for Bradford
 ---
 
-- Ning Lu
+- Dr Ning Lu (leading)
 
 - Mallory Morehead
+
+- Professor Mark Mon-Williams
