@@ -1,9 +1,10 @@
 ---
-title: "Broadband speed"
+title: "Ward map"
 description: |
   A dataset with 95,258 rows and 24 variables, containing the Ofcom's broadband speed data for Bradford city between 2018 and 2020.
 author:
-  - name: 
+  - name: Dr Ning Lu
+    affiliation: BIHR, Bradford Teaching Hospitals NHS
 date: 06-06-2020
 output:
   distill::distill_article:
