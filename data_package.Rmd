@@ -15,18 +15,20 @@ knitr::opts_chunk$set(
 )
 ```
 
+The goal of databradford is to provide a quick way to explore open datasets for Bradford city.
+
 ## Roadmap
 
 ```{r echo=FALSE}
 library(knitr)
 df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed", 
                                 "Property transaction",
-                                "Crime incidents*", "Local business*", "Air quality"),
-                 "Starting" = c("2014", "2018", "1995", "2011", "2010", "2015"), 
-                 "Ending" = c("2020", "2020", "2020", "2020", "2020", "2020"),
-                 "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No"),
-                 "Raw_data_contained" = c("100%", "100%", "100%", "6.9%", "20%", "100%"), 
-                 "Released" = c("No", "Yes", "No", "Yes", "No", "No")
+                                "Crime incidents*", "Local business*", "Air quality", "Ward map"),
+                 "Starting" = c("2014", "2018", "1995", "2011", "2010", "2015", "2020"), 
+                 "Ending" = c("2020", "2020", "2020", "2020", "2020", "2020", "2020"),
+                 "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No", "Yes"),
+                 "Raw_data_contained" = c("100%", "100%", "100%", "6.9%", "20%", "100%", "100%"), 
+                 "Released" = c("No", "Yes", "No", "Yes", "No", "No", "Yes")
 )
 kable(df)
 ```
@@ -34,7 +36,7 @@ kable(df)
 `*` Due to the size of the raw data, the package can only contain a subset of the data in this category. If you wish to use the full scale of the raw data, please contact the package developer for further data request.
   
 
-## Use the R package
+## Use the package
 
 You can install the development version of databradford in R from [GitHub](https://github.com/) with:
 
@@ -43,9 +45,9 @@ You can install the development version of databradford in R from [GitHub](https
 devtools::install_github("dataning/databradford")
 ```
 
-## Use the datasets
+## Use the dataset
 
-```{r }
+```{r message=FALSE}
 library(databradford)
 
 # Broadband speed
@@ -53,5 +55,10 @@ data("broadband")
 
 # Crime incident
 data("crime")
+
+# Ward level map - you need to convert geometry column back to multipolygon 
+data("wardmap")
+library(sf)
+wardmap$geometry <- st_geometry(wardmap$geometry)
 ```
 
