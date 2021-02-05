@@ -21,7 +21,7 @@ The goal of databradford is to provide a quick way to explore open datasets for 
 
 ```{r echo=FALSE}
 library(knitr)
-df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed", 
+df <- data.frame("Datasets" = c("Secondary school admission", "[Broadband speed](https://databradford.com/doc_broadband.html)", 
                                 "Property transaction",
                                 "Crime incidents*", "Local business*", "Air quality", "Ward map"),
                  "Starting" = c("2014", "2018", "1995", "2011", "2010", "2015", "2020"), 
