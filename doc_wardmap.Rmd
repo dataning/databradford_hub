@@ -1,0 +1,83 @@
+---
+title: "Broadband speed"
+description: |
+  A dataset with 95,258 rows and 24 variables, containing the Ofcom's broadband speed data for Bradford city between 2018 and 2020.
+author:
+  - name: 
+date: 06-06-2020
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+postcode
+
+    postcode, Bradford postcode
+pc1
+
+    postcode's 1st part, Bradford postcode
+pc2
+
+    postcode's 2nd part, Bradford postcode
+year
+
+    year of survey
+month
+
+    month of survey
+pc_with_30_300mbit_s_dspeed
+
+    Percentage of premises that have access to services between 30Mbit/s and 300Mbit/s
+pc_with_300mbit_s_dspeed
+
+    Percentage of premises that have access to services above 300Mbit/s
+pc_with_0_2mbit_s_dspeed
+
+    Percentage of premises that have access to services between 0Mbit/s and 2Mbit/s
+pc_with_2_5mbit_s_dspeed
+
+    Percentage of premises that have access to services between 2Mbit/s and 5Mbit/s
+pc_with_5_10mbit_s_dspeed
+
+    Percentage of premises that have access to services between 5Mbit/s and 10Mbit/s
+pc_with_10_30mbit_s_dspeed
+
+    Percentage of premises that have access to services between 10Mbit/s and 30Mbit/s
+sfbb_availability_percent_premises
+
+    Percentage of premises that have Superfast Broadband (30Mbit/s to less than 300Mbit/s) coverage
+ufbb_availability_percent_premises
+
+    Percentage of premises that have Ultrafast Broadband (300Mbit/s or greater) coverage
+full_fibre_availability_percent_premises
+
+    Percentage of premises that have coverage from a full fibre service
+pc_unable_to_receive_2mbit_s
+
+    Percentage of premises that do not have access to services above 2Mbit/s
+pc_unable_to_receive_5mbit_s
+
+    Percentage of premises that do not have access to services above 5Mbit/s
+pc_unable_to_receive_10mbit_s
+
+    Percentage of premises that do not have access to services above 10Mbit/s
+pc_unable_to_receive_30mbit_s
+
+    Percentage of premises that do not have access to services above 30Mbit/s
+pc_below_the_uso
+
+    Percentage of premises that do not have access to download speeds at or above 10Mbit/s and upload speeds at or above 1Mbit/s including non-matched records and zero predicted speeds
+pc_able_to_receive_decent_broadband_from_fwa
+
+    Percentage of premises with Decent Broadband from Fixed Wireless Access provision
+pc_able_to_receive_sfbb_from_fwa
+
+    Percentage of premises with Superfast Broadband (30Mbit/s or above) from Fixed Wireless Access provision
+pc_with_nga
+
+    Percentage of premises with Next Generation Access
+
+Source
+
+https://www.ofcom.org.uk/research-and-data
+
