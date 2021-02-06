@@ -1,7 +1,7 @@
 ---
 title: "Crime incidents"
 description: |
-  A dataset with 95,258 rows and 24 variables, containing the Ofcom's broadband speed data for Bradford city between 2018 and 2020.
+  A dataset with containing the Police API's data for Bradford city between 1995 and 2020.
 author:
   - name: Dr Ning Lu
     affiliation: BIHR, Bradford Teaching Hospitals NHS
@@ -11,74 +11,49 @@ output:
     self_contained: false
 ---
 
-postcode
+-   **year**
 
-    postcode, Bradford postcode
-pc1
+    -   Year of the incident
 
-    postcode's 1st part, Bradford postcode
-pc2
+-   **month**
 
-    postcode's 2nd part, Bradford postcode
-year
+    -   Month of the incident
 
-    year of survey
-month
+-   **reported_by**
 
-    month of survey
-pc_with_30_300mbit_s_dspeed
+    -   The force that provided the data about the crime.
 
-    Percentage of premises that have access to services between 30Mbit/s and 300Mbit/s
-pc_with_300mbit_s_dspeed
+-   **falls_within**
 
-    Percentage of premises that have access to services above 300Mbit/s
-pc_with_0_2mbit_s_dspeed
+    -   At present, also the force that provided the data about the crime. This is currently being looked into and is likely to change in the near future.
 
-    Percentage of premises that have access to services between 0Mbit/s and 2Mbit/s
-pc_with_2_5mbit_s_dspeed
+-   **longitude**
 
-    Percentage of premises that have access to services between 2Mbit/s and 5Mbit/s
-pc_with_5_10mbit_s_dspeed
+    -   The anonymised coordinates of the crime
 
-    Percentage of premises that have access to services between 5Mbit/s and 10Mbit/s
-pc_with_10_30mbit_s_dspeed
+-   **latitude**
 
-    Percentage of premises that have access to services between 10Mbit/s and 30Mbit/s
-sfbb_availability_percent_premises
+    -   The anonymised coordinates of the crime
 
-    Percentage of premises that have Superfast Broadband (30Mbit/s to less than 300Mbit/s) coverage
-ufbb_availability_percent_premises
+-   **location**
 
-    Percentage of premises that have Ultrafast Broadband (300Mbit/s or greater) coverage
-full_fibre_availability_percent_premises
+    -   Percentage of premises that have access to services above 300Mbit/s
 
-    Percentage of premises that have coverage from a full fibre service
-pc_unable_to_receive_2mbit_s
+```{=html}
+<!-- -->
+```
+-   **lsoa_code**
 
-    Percentage of premises that do not have access to services above 2Mbit/s
-pc_unable_to_receive_5mbit_s
+    -   The anonymised Lower Layer Super Output Area
 
-    Percentage of premises that do not have access to services above 5Mbit/s
-pc_unable_to_receive_10mbit_s
+-   **crime_type**
 
-    Percentage of premises that do not have access to services above 10Mbit/s
-pc_unable_to_receive_30mbit_s
+    -   Crime types
 
-    Percentage of premises that do not have access to services above 30Mbit/s
-pc_below_the_uso
+-   **last_outcome_category**
 
-    Percentage of premises that do not have access to download speeds at or above 10Mbit/s and upload speeds at or above 1Mbit/s including non-matched records and zero predicted speeds
-pc_able_to_receive_decent_broadband_from_fwa
-
-    Percentage of premises with Decent Broadband from Fixed Wireless Access provision
-pc_able_to_receive_sfbb_from_fwa
-
-    Percentage of premises with Superfast Broadband (30Mbit/s or above) from Fixed Wireless Access provision
-pc_with_nga
-
-    Percentage of premises with Next Generation Access
+    -   Last outcome reported
 
 Source
 
-https://www.ofcom.org.uk/research-and-data
-
+<https://data.police.uk/about/#columns>

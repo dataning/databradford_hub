@@ -23,9 +23,9 @@ If you wish to get the latest development of the data package, please visit the 
 library(knitr)
 df <- data.frame("Datasets" = c("[Secondary school admission](https://databradford.com/doc_2ndadmission.html)", 
                                 "[Broadband speed](https://databradford.com/doc_broadband.html)", 
-                                "[Property transaction](https://databradford.com/doc_property.html)",
+                                "[Property transaction]()",
                                 "[Crime incidents*](https://databradford.com/doc_crime.html)", 
-                                "[Local business*](https://databradford.com/doc_localbusiness.html)", 
+                                "[Local business*]()", 
                                 "[Air quality]()", 
                                 "[Ward map](https://databradford.com/doc_wardmap.html)"),
                  "Starting" = c("2014", "2018", "1995", "2011", "2010", "2015", "2020"), 
