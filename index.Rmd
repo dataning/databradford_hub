@@ -13,5 +13,5 @@ output:
   postcards::jolla
 ---
 
-Data Bradford – Using Data Science to Transform Public Service in Bradford.
+Data Bradford – Using Data Science to Translate and Meet Public Service Needs in Bradford 🚀
 

@@ -1,7 +1,7 @@
 ---
 title: "databradford"
 description: <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="Licence"></a><a href="https://saythanks.io/to/datalulu%40gmail.com"><img src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg" alt="SayThanks"></a> 
-  <br> A R package to quickly explore open datasets for Bradford. <img src="man/figures/logo.png" align="right" />
+  <br> A R package to quickly explore open datasets for Bradford. <img src="man/figures/logo.png" align="right" width = 150 />
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
