@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-The goal of databradford is to provide a quick way to explore open datasets for Bradford city.
+If you wish to get the latest development of the data package, please visit the package's [website](https://r.databradford.com).
 
 ## Roadmap
 
@@ -51,7 +51,7 @@ devtools::install_github("dataning/databradford")
 
 ## Use the dataset
 
-```{r message=FALSE}
+```{r message=FALSE, eval=FALSE}
 library(databradford)
 
 # Broadband speed
