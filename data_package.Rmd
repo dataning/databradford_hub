@@ -66,6 +66,8 @@ library(sf)
 wardmap$geometry <- st_geometry(wardmap$geometry)
 ```
 
+![](plot_all.png){#id .class width="100%" height="100%"}
+
 ## Citation
 
 ```{}
