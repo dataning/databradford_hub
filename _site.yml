@@ -20,6 +20,8 @@ navbar:
           href: crime_report.html
         - text: "Job Listing"
           href: job_listing.html
+    - text: "Data Package"
+      href: data_package.html
     - text: "Research Repo"
       menu:
         - text: "Current Projects"
