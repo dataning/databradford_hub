@@ -1,10 +1,13 @@
 ---
 title: "ActEarly: Holme Wood"
-description: | If you wish to get the latest development of the data package, please visit the package's [website](https://holmewood.databradford.com/).
-  2020 - 2021
+description: 2020 - 2021
 ---
 
-The ActEarly: Holme Wood programme brings data scientists, community members, practitioners, and service providers together to explore how lives can be improved through data science. The programme consists of:
+The ActEarly: Holme Wood programme brings data scientists, community members, practitioners, and service providers together to explore how lives can be improved through data science.
+
+**Please visit the website - <https://holmewood.databradford.com/>**
+
+The programme consists of:
 
 -   Analysis and modelling of routine and newly generated/linked data relevant to priority issues within the community to identify where there are patterns, relationships, and predictive indicators for issues
 
@@ -18,10 +21,7 @@ The ActEarly: Holme Wood programme brings data scientists, community members, pr
 
 ![](care.jpg){#id .class width="22%" height="22%"} ![](turing.svg){.class width="18%" height="18%"} ![](dfe.png){.class width="14%" height="14%"} ![](leeds.jpg){.class width="25%" height="30%"}
 
-![](bri.jpg){.class width="25%" height="30%"}
-![](bradford_people.png){.class width="15%" height="30%"} ![](bradford.jpg){.class width="25%" height="30%"} 
-![](UKPRP.png){.class width="20%" height="30%"} 
-
+![](bri.jpg){.class width="25%" height="30%"} ![](bradford_people.png){.class width="15%" height="30%"} ![](bradford.jpg){.class width="25%" height="30%"} ![](UKPRP.png){.class width="20%" height="30%"}
 
 ![](actearly.png){.class width="10%" height="10%"}
 

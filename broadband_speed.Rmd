@@ -1,29 +1,28 @@
 ---
 title: "Bradford broadband speed"
 description: |
-  A short description of the post.
+  The slowest parts of the Bradford district 
 author:
-  - name: Ning Lu
+  - name: Dr Ning Lu
+    affiliation: Data Science, Bradford Teaching Hospitals NHS
 date: 06-06-2020
 output:
   distill::distill_article:
     self_contained: false
 ---
 
-Current situation: 
+## Background: 
 
-Broadband: New survey shows the fastest and slowest parts of the Bradford district (Telegraph & Argus, 5th June 2020). link
+- Broadband: New survey shows the fastest and slowest parts of the Bradford district [Telegraph & Argus, 5th June 2020](https://www.thetelegraphandargus.co.uk/news/18499874.broadband-new-survey-shows-fastest-slowest-parts-bradford-district/).
 
-Schools, trusts and local authorities can help disadvantaged children get online using free mobile data increases or 4G wireless routers provided by the Department for Education. link
-
-
+- Schools, trusts and local authorities can help disadvantaged children get online using free mobile data increases or 4G wireless routers provided by the Department for Education. [Gov.uk link](https://get-help-with-tech.education.gov.uk/internet-access)
 
 
 <center>
 
-![](speed_map.png){#id .class width="100%" height="100%"}  
-
 ![](net.png){#id .class width="100%" height="100%"}  
+
+![](speed_map.png){#id .class width="100%" height="100%"}  
 
 ![](download.png){#id .class width="100%" height="100%"}  
 

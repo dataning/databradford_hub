@@ -38,7 +38,7 @@ df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed",
 kable(df)
 ```
 
-`*` Due to the size of the raw data, the package can only contain a subset of the data in this category. If you wish to use the full scale of the raw data, please contact the package developer for further data request.
+`*` Due to the size of the raw data, the package can only contain a subset of the data in thess categories. If you wish to use the full extent of the raw data, please contact the package developer for further data request.
   
 
 ## Use the package
@@ -60,11 +60,6 @@ data("broadband")
 
 # Crime incident
 data("crime")
-
-# Ward level map - you need to convert geometry column back to multipolygon 
-data("wardmap")
-library(sf)
-wardmap$geometry <- st_geometry(wardmap$geometry)
 ```
 
 ## Use the spatial elements

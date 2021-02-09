@@ -1,10 +1,12 @@
 ---
-title: "Mental Health in Holme Wood"
+title: "Mental Health in Bradford"
 description: |
   Data Science Project
 author:
   - name: Maike Gatzlaff
     affiliation: LIDA, University of Leeds
+  - name: Dr Ning Lu
+    affiliation: Data Science, Bradford Teaching Hospitals NHS
   - name: Professor Mark Mon-Williams
     affiliation: Cognitive Psychology, University of Leeds
 date: 01-19-2021
