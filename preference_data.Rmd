@@ -1,5 +1,5 @@
 ---
-title: "Bradford school Preference"
+title: "Understanding school preference in Bradford"
 description: |
   This research was commissioned by the Bradford Opportunity Area through the Centre for Applied Education Research. The research was motivated by the hypothesis that the school admission system in the Bradford District contributes towards educational inequalities. 
 author:

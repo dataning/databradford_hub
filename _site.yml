@@ -22,11 +22,11 @@ navbar:
           href: job_listing.html
     - text: "Data Package"
       href: data_package.html
-    - text: "Research evidence"
+    - text: "Research Repo"
       menu:
         - text: "Current Projects"
           href: current_projects.html
-        - text: "Past Projects"
+        - text: "Bradford School Preference"
           href: preference_data.html
     - text: "Holme Wood"
       href: holme_wood.html
