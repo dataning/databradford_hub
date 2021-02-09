@@ -21,18 +21,19 @@ If you wish to get the latest development of the data package, please visit the 
 
 ```{r echo=FALSE}
 library(knitr)
-df <- data.frame("Datasets" = c("[Secondary school admission](https://databradford.com/doc_2ndadmission.html)", 
-                                "[Broadband speed](https://databradford.com/doc_broadband.html)", 
-                                "[Property transaction]()",
-                                "[Crime incidents*](https://databradford.com/doc_crime.html)", 
-                                "[Local business*]()", 
-                                "[Air quality]()", 
-                                "[Ward map](https://databradford.com/doc_wardmap.html)"),
-                 "Starting" = c("2014", "2018", "1995", "2011", "2010", "2015", "2020"), 
-                 "Ending" = c("2020", "2020", "2020", "2020", "2020", "2020", "2020"),
-                 "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No", "Yes"),
-                 "Raw_data_contained" = c("100%", "100%", "100%", "6.9%", "20%", "100%", "100%"), 
-                 "Released" = c("No", "Yes", "No", "Yes", "No", "No", "Yes")
+df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed", 
+                                "Property transaction",
+                                "Crime incidents*", "Local business*", "Air quality", 
+                                "LSOA map", "MSOA map", "OA map", "Postcode map"),
+                 "Starting" = c("2014", "2018", "1995", "2011", "2010", "2015", "2011",
+                                "2011", "2011", "2011"), 
+                 "Ending" = c("2020", "2020", "2020", "2020", "2020", "2020", "2020",
+                              "2020", "2020", "2020"),
+                 "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No", "Yes", 
+                               "Yes", "Yes", "Yes"),
+                 "Raw_data_contained" = c("100%", "100%", "100%", "6.9%", "20%", "100%", "100%",
+                                          "100%", "100%", "100%"), 
+                 "Released" = c("No", "Yes", "No", "Yes", "No", "No", "Yes", "Yes", "Yes", "Yes")
 )
 kable(df)
 ```
@@ -64,6 +65,22 @@ data("crime")
 data("wardmap")
 library(sf)
 wardmap$geometry <- st_geometry(wardmap$geometry)
+```
+
+## Use the spatial elements
+
+```{r eval=FALSE}
+# MSOA multipolygon
+msoa_map <- msoa()
+
+# LSOA multipolygon
+lsoa_map <- lsoa()
+
+# OA multipolygon
+oa_map <- oa()
+
+# postcode pointpolygon
+postcode_map <- pc()
 ```
 
 ![](plot_all.png){#id .class width="100%" height="100%"}

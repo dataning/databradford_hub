@@ -2439,7 +2439,7 @@ Research Repo
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://databradford.com/doc_2ndadmission.html">Secondary school admission</a></td>
+<td style="text-align: left;">Secondary school admission</td>
 <td style="text-align: left;">2014</td>
 <td style="text-align: left;">2020</td>
 <td style="text-align: left;">Yes</td>
@@ -2447,7 +2447,7 @@ Research Repo
 <td style="text-align: left;">No</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://databradford.com/doc_broadband.html">Broadband speed</a></td>
+<td style="text-align: left;">Broadband speed</td>
 <td style="text-align: left;">2018</td>
 <td style="text-align: left;">2020</td>
 <td style="text-align: left;">Yes</td>
@@ -2455,7 +2455,7 @@ Research Repo
 <td style="text-align: left;">Yes</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="">Property transaction</a></td>
+<td style="text-align: left;">Property transaction</td>
 <td style="text-align: left;">1995</td>
 <td style="text-align: left;">2020</td>
 <td style="text-align: left;">Yes</td>
@@ -2463,7 +2463,7 @@ Research Repo
 <td style="text-align: left;">No</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="https://databradford.com/doc_crime.html">Crime incidents*</a></td>
+<td style="text-align: left;">Crime incidents*</td>
 <td style="text-align: left;">2011</td>
 <td style="text-align: left;">2020</td>
 <td style="text-align: left;">Yes</td>
@@ -2471,7 +2471,7 @@ Research Repo
 <td style="text-align: left;">Yes</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="">Local business*</a></td>
+<td style="text-align: left;">Local business*</td>
 <td style="text-align: left;">2010</td>
 <td style="text-align: left;">2020</td>
 <td style="text-align: left;">Yes</td>
@@ -2479,7 +2479,7 @@ Research Repo
 <td style="text-align: left;">No</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="">Air quality</a></td>
+<td style="text-align: left;">Air quality</td>
 <td style="text-align: left;">2015</td>
 <td style="text-align: left;">2020</td>
 <td style="text-align: left;">No</td>
@@ -2487,8 +2487,32 @@ Research Repo
 <td style="text-align: left;">No</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="https://databradford.com/doc_wardmap.html">Ward map</a></td>
+<td style="text-align: left;">LSOA map</td>
+<td style="text-align: left;">2011</td>
 <td style="text-align: left;">2020</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">100%</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MSOA map</td>
+<td style="text-align: left;">2011</td>
+<td style="text-align: left;">2020</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">100%</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">OA map</td>
+<td style="text-align: left;">2011</td>
+<td style="text-align: left;">2020</td>
+<td style="text-align: left;">Yes</td>
+<td style="text-align: left;">100%</td>
+<td style="text-align: left;">Yes</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Postcode map</td>
+<td style="text-align: left;">2011</td>
 <td style="text-align: left;">2020</td>
 <td style="text-align: left;">Yes</td>
 <td style="text-align: left;">100%</td>
@@ -2517,6 +2541,23 @@ Research Repo
 <span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span><span class='st'>"wardmap"</span><span class='op'>)</span>
 <span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://r-spatial.github.io/sf/'>sf</a></span><span class='op'>)</span>
 <span class='va'>wardmap</span><span class='op'>$</span><span class='va'>geometry</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://r-spatial.github.io/sf/reference/st_geometry.html'>st_geometry</a></span><span class='op'>(</span><span class='va'>wardmap</span><span class='op'>$</span><span class='va'>geometry</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<h2 id="use-the-spatial-elements">Use the spatial elements</h2>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># MSOA multipolygon</span>
+<span class='va'>msoa_map</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/pkg/databradford/man/msoa.html'>msoa</a></span><span class='op'>(</span><span class='op'>)</span>
+
+<span class='co'># LSOA multipolygon</span>
+<span class='va'>lsoa_map</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/pkg/databradford/man/lsoa.html'>lsoa</a></span><span class='op'>(</span><span class='op'>)</span>
+
+<span class='co'># OA multipolygon</span>
+<span class='va'>oa_map</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/pkg/databradford/man/oa.html'>oa</a></span><span class='op'>(</span><span class='op'>)</span>
+
+<span class='co'># postcode pointpolygon</span>
+<span class='va'>postcode_map</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/pkg/databradford/man/pc.html'>pc</a></span><span class='op'>(</span><span class='op'>)</span>
 </code></pre>
 </div>
 </div>
