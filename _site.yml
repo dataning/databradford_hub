@@ -14,12 +14,12 @@ navbar:
       menu:
         - text: "School Admission"
           href: school_admission.html
+        - text: "Job Listing Weekly"
+          href: job_listing.html
         - text: "Broadband Speed"
           href: broadband_speed.html
         - text: "Crime Incidence"
           href: crime_report.html
-        - text: "Job Listing"
-          href: job_listing.html
     - text: "Data Package"
       href: data_package.html
     - text: "Research Repo"

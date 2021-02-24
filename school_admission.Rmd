@@ -11,7 +11,7 @@ output:
     self_contained: false
 ---
 
-```{r echo=FALSE}
+```{r echo=FALSE, layout="l-page"}
 library(reactable)
 schools <- readRDS("schools.rds")
 green_pal <- function(x) rgb(colorRamp(c("#e8f9e9", "#2dc937"))(x), maxColorValue = 255)
