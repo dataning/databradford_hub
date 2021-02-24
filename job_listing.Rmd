@@ -1,7 +1,7 @@
 ---
 title: "Job listing weekly"
 description: |
-  Job listed in DWP's job portal in 2021.
+  Job listed in Jobcentre's search portal since Feb 2021.
 author:
   - name: Dr Ning Lu
     affiliation: BIHR, Bradford Teaching Hospitals NHS
