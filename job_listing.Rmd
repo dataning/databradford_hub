@@ -11,7 +11,7 @@ output:
     self_contained: false
 ---
 
-```{r echo=FALSE, layout="l-page"}
+```{r echo=FALSE, layout="l-screen"}
 job_table <- readRDS("job_table.rds")
 library(DT)
 datatable(job_table, options = list(pageLength = 100), escape = FALSE)
