@@ -14,7 +14,7 @@ output:
 ```{r echo=FALSE, layout="l-page"}
 job_table <- readRDS("job_table.rds")
 library(DT)
-datatable(job_table)
+datatable(job_table, options = list(pageLength = 100), escape = FALSE)
 # library(reactable)
 #reactable(job_table, searchable = TRUE, showSortable = TRUE)
 ```
