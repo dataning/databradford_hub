@@ -32,10 +32,10 @@ navbar:
           href: mental_health.html
     - text: "Holme Wood"
       menu:
-        - text: "Home"
-        - href: holme_wood.html
+        - text: "Home Page"
+          href: holme_wood.html
         - text: "Community Survey"
-        - href: community_survey.html
+          href: community_survey.html
     - text: "People"
       href: people.html
     - text: "About"
