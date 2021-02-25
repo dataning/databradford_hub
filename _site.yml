@@ -32,6 +32,8 @@ navbar:
           href: mental_health.html
     - text: "Holme Wood"
       href: holme_wood.html
+    - text: "Community Survey"
+      href: community_survey.html
     - text: "People"
       href: people.html
     - text: "About"

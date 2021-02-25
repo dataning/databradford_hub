@@ -1,14 +1,32 @@
 ---
-title: "Community survey"
-description: |
-  A short description of the post.
-author:
-  - name: Mallory Morehead
-date: 01-19-2021
-output:
-  distill::distill_article:
-    self_contained: false
+title: 
 ---
 
 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+</head>
+<body>
+<script src="https://unpkg.com/tripetto-runner-foundation"></script>
+<script src="https://unpkg.com/tripetto-runner-autoscroll"></script>
+<script src="https://unpkg.com/tripetto-services"></script>
+<script>
+var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoidVRaaXg4eXdqV3ZFME9qYVZGZUxGS1pkOGdPZ3pwUklMVkVybmJySWV0MD0iLCJkZWZpbml0aW9uIjoiUVdVWDA4UnIyS3NjOWpuMGdSWmxEdjJReGE1eVlPdlNDSTJWcTZzaWVYTT0iLCJ0eXBlIjoiY29sbGVjdCJ9.WOTq3Jxy6QyR73pvmkzEoT6ZvynZql0c2heHBrvlU1A" });
+
+TripettoAutoscroll.run({
+    element: document.body,
+    definition: tripetto.definition,
+    styles: tripetto.styles,
+    l10n: tripetto.l10n,
+    locale: tripetto.locale,
+    translations: tripetto.translations,
+    attachments: tripetto.attachments,
+    onSubmit: tripetto.onSubmit
+});
+</script>
+</body>
+</html>
 
