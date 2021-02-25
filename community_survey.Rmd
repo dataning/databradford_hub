@@ -1,11 +1,7 @@
 ---
 title: "Community Survey"
-output:
-  distill::distill_article:
-    self_contained: true
 ---
 
-<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8" />

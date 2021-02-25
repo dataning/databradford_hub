@@ -47,8 +47,8 @@
       "path": "community_survey.html",
       "title": "Community Survey",
       "author": [],
-      "contents": "\n<!DOCTYPE html>\n\n\n\nvar tripetto = TripettoServices.init({ token: \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoidVRaaXg4eXdqV3ZFME9qYVZGZUxGS1pkOGdPZ3pwUklMVkVybmJySWV0MD0iLCJkZWZpbml0aW9uIjoiUVdVWDA4UnIyS3NjOWpuMGdSWmxEdjJReGE1eVlPdlNDSTJWcTZzaWVYTT0iLCJ0eXBlIjoiY29sbGVjdCJ9.WOTq3Jxy6QyR73pvmkzEoT6ZvynZql0c2heHBrvlU1A\" });\n\nTripettoAutoscroll.run({\n    element: document.body,\n    definition: tripetto.definition,\n    styles: tripetto.styles,\n    l10n: tripetto.l10n,\n    locale: tripetto.locale,\n    translations: tripetto.translations,\n    attachments: tripetto.attachments,\n    onSubmit: tripetto.onSubmit\n});\n\n\n\n",
-      "last_modified": "2021-02-25T01:44:20+00:00"
+      "contents": "\n\n\n\nvar tripetto = TripettoServices.init({ token: \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoidVRaaXg4eXdqV3ZFME9qYVZGZUxGS1pkOGdPZ3pwUklMVkVybmJySWV0MD0iLCJkZWZpbml0aW9uIjoiUVdVWDA4UnIyS3NjOWpuMGdSWmxEdjJReGE1eVlPdlNDSTJWcTZzaWVYTT0iLCJ0eXBlIjoiY29sbGVjdCJ9.WOTq3Jxy6QyR73pvmkzEoT6ZvynZql0c2heHBrvlU1A\" });\n\nTripettoAutoscroll.run({\n    element: document.body,\n    definition: tripetto.definition,\n    styles: tripetto.styles,\n    l10n: tripetto.l10n,\n    locale: tripetto.locale,\n    translations: tripetto.translations,\n    attachments: tripetto.attachments,\n    onSubmit: tripetto.onSubmit\n});\n\n\n\n",
+      "last_modified": "2021-02-25T19:16:54+00:00"
     },
     {
       "path": "crime_report.html",
