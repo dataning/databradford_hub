@@ -31,7 +31,7 @@ navbar:
         - text: "Bradford Mental Health"
           href: mental_health.html
         - text: "Bradford Healthy Place"
-          href: healthly_place.html
+          href: healthy_place.html
     - text: "Holme Wood"
       menu:
         - text: "Home Page"
