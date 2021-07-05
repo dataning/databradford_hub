@@ -21,19 +21,19 @@ The data package gets updated weekly. The last update was `r Sys.Date()`. If you
 
 ```{r echo=FALSE}
 library(knitr)
-df <- data.frame("Datasets" = c("Secondary school admission", "Broadband speed", 
-                                "Property transaction",
+df <- data.frame("Datasets" = c("Secondary school profile", "Secondary school census", "Secondary school admission", "COVID-19 Vaccination", "Broadband speed", 
+                                "Property price paid",
                                 "Crime incidents*", "Local business*", "Air quality", 
-                                "LSOA map", "MSOA map", "OA map", "Postcode map"),
-                 "Starting" = c("2014", "2018", "1995", "2011", "2010", "2015", "2011",
-                                "2011", "2011", "2011"), 
-                 "Ending" = c("2020", "2020", "2020", "2020", "2020", "2020", "2020",
-                              "2020", "2020", "2020"),
-                 "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "No", "Yes", 
-                               "Yes", "Yes", "Yes"),
-                 "Raw_data_contained" = c("100%", "100%", "100%", "6.9%", "20%", "100%", "100%",
-                                          "100%", "100%", "100%"), 
-                 "Released" = c("No", "Yes", "No", "Yes", "No", "No", "Yes", "Yes", "Yes", "Yes")
+                                "LSOA map", "MSOA map", "OA map", "Postcode map", "Index of Multiple Deprivation"),
+                 "Starting" = c("2014", "2014", "2014", "2021", "2018", "1995", "2011", "2010", "2015", "2011",
+                                "2011", "2011", "2011", "2015"), 
+                 "Ending" = c("2020", "2020", "2020", "2021", "2020", "2021", "2020", "2020", "2020", "2020",
+                              "2020", "2020", "2020", "2019"),
+                 "Geocoded" = c("Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "No", "Yes", 
+                               "Yes", "Yes", "Yes", "Yes"),
+                 "Raw_data_contained" = c("100%", "100%", "100%", "90%", "100%", "100%", "6.9%", "20%", "100%", "100%",
+                                          "100%", "100%", "100%", "100%"), 
+                 "Released" = c("Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "Yes", "No", "No", "Yes", "Yes", "Yes", "Yes", "Yes")
 )
 kable(df)
 ```
@@ -55,11 +55,30 @@ devtools::install_github("dataning/databradford")
 ```{r message=FALSE, eval=FALSE}
 library(databradford)
 
+# Secondary school admission
+data("sec_school_admission")
+
+# Secondary school profile
+data("sec_school_profile")
+
+# Secondary school census
+data("sec_school_census")
+
+# COVID-19 Vaccination
+data("vaccination")
+
 # Broadband speed
 data("broadband")
 
+# Property
+property <- property()
+
 # Crime incident
 data("crime")
+
+# Index of Multiple Deprivation
+data("imd")
+
 ```
 
 ## Use the spatial elements
